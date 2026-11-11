@@ -12,9 +12,7 @@ All solutions are written in pure **Python 3.8+** using standard library modules
 |---|---|---|---|---|
 | **Task 1** | Chatbot with Rule-Based Responses | [`task1_chatbot/`](file:///C:/Users/ansha/.gemini/antigravity/scratch/CODSOFT_TASKS/task1_chatbot) | Regex pattern matching + Intent dispatch | ✅ Completed |
 | **Task 2** | Tic-Tac-Toe AI | [`task2_tictactoe/`](file:///C:/Users/ansha/.gemini/antigravity/scratch/CODSOFT_TASKS/task2_tictactoe) | Minimax with Alpha-Beta Pruning (CLI + Tkinter GUI) | ✅ Completed |
-| **Task 3** | Image Captioning | — | *Skipped (requires heavy pre-trained VGG/ResNet weights & GPU pipeline)* | ⏭️ Skipped |
-| **Task 4** | Recommendation System | [`task4_recommender/`](file:///C:/Users/ansha/.gemini/antigravity/scratch/CODSOFT_TASKS/task4_recommender) | Content-based filtering (TF-IDF + Cosine Similarity from scratch) | ✅ Completed |
-| **Task 5** | Face Detection & Recognition | — | *Skipped (requires webcam capture and external computer vision weights)* | ⏭️ Skipped |
+| **Task 3** | Recommendation System | [`task4_recommender/`](file:///C:/Users/ansha/.gemini/antigravity/scratch/CODSOFT_TASKS/task4_recommender) | Content-based filtering (TF-IDF + Cosine Similarity from scratch) | ✅ Completed |
 
 ---
 
@@ -49,7 +47,7 @@ python task2_tictactoe/tictactoe_gui.py
 
 ---
 
-### 3. Task 4: Content-Based Movie Recommender
+### 3. Task 3: Content-Based Movie Recommender
 ```bash
 python task4_recommender/recommender.py
 ```
@@ -79,7 +77,7 @@ python task4_recommender/recommender.py
 
 ---
 
-### Task 4: TF-IDF & Cosine Similarity
+### Task 3: TF-IDF & Cosine Similarity
 
 1. **Term Frequency (TF)**:
    $$\text{TF}(t, d) = \frac{\text{count}(t \text{ in } d)}{|d|}$$
